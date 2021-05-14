@@ -1,0 +1,9 @@
+name: pytorch-local-env
+channels:
+    - defaults
+    - pytorch
+dependencies:
+    - python=3.8
+    - pytorch
+    - torchvision
+    - pip

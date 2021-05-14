@@ -1,0 +1,5 @@
+name: sklearn-local-env
+dependencies:
+  - python=3.8
+  - scikit-learn
+  - numpy
