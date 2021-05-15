@@ -17,4 +17,6 @@ def run(raw_data):
     # Make prediction.
     y_hat = model.predict(data)
     # You can return any data type as long as it's JSON-serializable.
-    return y_hat.tolist()
+    setosa_clases = ['Setosa', 'Versicolor', 'Virginica']
+    # return the result back
+    return json.dumps({"predicted_class": setosa_clases[int(y_hat)]})
