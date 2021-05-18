@@ -35,4 +35,14 @@
 
 ## Entregas
 
-Por definir
+**TALLER DESPLIEGUE MODELO EN AZURE (90%)**
+
+La entrega será para más tardar el 3 de junio de 2021, los criterios a evaluar son los siguientes:
+
+- Creación Workspace en azure ml
+- Entrenamiento de un modelo diferente a los trabajados en el curso
+- Registro de un modelo diferente a los trabajados en el curso
+- Despliegue de un modelo diferente a los trabajados en el curso en un Azure Container Instance
+- Documentación donde se describan los pasos anteriores
+
+**Nota:** Se podrá trabajar en equipos de máximo dos personas, los entregas extemporáneas no serán evaluadas. 
