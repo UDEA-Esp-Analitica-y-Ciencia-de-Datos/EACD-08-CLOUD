@@ -1,0 +1,10 @@
+syntax = "proto3";
+   
+message Empleado {
+  int32 id = 1;
+  string nombre = 2;
+  int32 edad = 3;
+  string sexo = 4;
+  string profesion = 5;
+  int32 salario = 6;
+}
