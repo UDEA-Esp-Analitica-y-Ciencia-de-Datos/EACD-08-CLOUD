@@ -4,7 +4,7 @@ from pyspark.streaming import StreamingContext
 sc = SparkContext(appName = "Text Cleaning")
 strc = StreamingContext(sc, 10)
 
-text_data = strc.socketTextStream("34.238.252.238", 8083)
+text_data = strc.socketTextStream("3.91.36.108", 8083)
 
 words = text_data.flatMap(lambda line: line.split(" "))
 pairs = words.map(lambda word: (word, 1))
