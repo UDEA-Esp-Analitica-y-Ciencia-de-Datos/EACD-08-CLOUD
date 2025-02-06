@@ -32,3 +32,6 @@ En AWS vamos a conocer y operar los siguientes servicios
 
 ## Entregas
 Las entregas del curso (informes, notebooks, etc.) se realizarán por correo electrónico. Los talleres se realizan en equipos de trabajo durante las sesiones marcadas como [TALLER], en cada sesión de taller se definirán las fechas de entrega.
+- Entrega 1 (30%): Serialización de datos
+- Entrega 2 (30%): Databricks
+- Entrega 3 (40%): AWS
